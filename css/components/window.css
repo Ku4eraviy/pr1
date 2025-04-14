@@ -1,0 +1,37 @@
+.pramougol{
+    max-width: 437px;
+    max-height: 285px;
+    background-color: white ;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    max-width: 260px;
+}
+
+.X{
+
+}
+
+.str_1{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.red{
+    max-width: 390px;
+    background-color: rgba(255, 42, 42, .1);
+}
+
+.str_2{
+
+}
+
+.finish{
+
+}
+
+.str_3{
+
+}

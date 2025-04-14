@@ -4,3 +4,4 @@
 @import 'basic/_fonts.css';
 @import 'basic/_global.css';
 
+@import "components/window.css";
