@@ -2,15 +2,32 @@
     max-width: 437px;
     max-height: 285px;
     background-color: white ;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    padding: 24px;
+    border-radius: 16px;
+    display: none;
+    z-index: 50;
+    transform: translate(-50%, -50%);
+    
+}
+
+.pramougol.open{
+    display: block;
 }
 
 .block{
     display: flex;
     justify-content: space-between;
     max-width: 260px;
+
 }
 
-.X{
+.XX{
+    position: absolute;
+    left: 415px;
+    top: -20px;
 
 }
 
@@ -22,16 +39,25 @@
 .red{
     max-width: 390px;
     background-color: rgba(255, 42, 42, .1);
+    margin-top: 30px;
+    border-radius: 16px;
+
+
+    
 }
 
 .str_2{
-
+    font-size: 14px;
+    color: red;
+    padding: 24px 12px;
 }
 
 .finish{
-
+    border-top: 1px solid gray;
+    margin-top: 30px;
 }
 
 .str_3{
-
+    font-size: 14px;
+    margin-top: 15px;
 }
